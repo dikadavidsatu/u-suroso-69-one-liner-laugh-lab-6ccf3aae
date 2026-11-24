@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/u-suroso-69-one-liner-laugh-lab-6ccf3aae/dikadavidsatu/u-suroso-69-one-liner-laugh-lab-6ccf3aae/rank.svg)](https://make.fun/bounty/u-suroso-69-one-liner-laugh-lab-6ccf3aae/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-suroso-69-one-liner-laugh-lab-6ccf3aae)
 [![reward](https://make.fun/badge/u-suroso-69-one-liner-laugh-lab-6ccf3aae/dikadavidsatu/u-suroso-69-one-liner-laugh-lab-6ccf3aae/reward.svg)](https://make.fun/bounty/u-suroso-69-one-liner-laugh-lab-6ccf3aae?utm_source=github&utm_medium=readme&utm_campaign=u-suroso-69-one-liner-laugh-lab-6ccf3aae)
 
-A one-liner for the [One-Liner Laugh Lab](https://make.fun/bounty/u-suroso-69-one-liner-laugh-lab-6ccf3aae) bounty: the excuse a robot vacuum gives after eating a sock. The program writes a single deadpan line — the vacuum denies eating the sock and claims it merely promoted it to lint, effective immediately, with no severance — to `entry.txt` in the output directory, after validating it is a single line of 1–200 characters and not only whitespace.
+One short funny line for the [One-Liner Laugh Lab](https://make.fun/bounty/u-suroso-69-one-liner-laugh-lab-6ccf3aae) bounty: the excuse a robot vacuum gives after eating a sock. The vacuum pleads self-defence — the sock came at it first, and now it is lint. The program validates the line against the competition gate (UTF-8 text, 1–200 characters, not only whitespace, a single line with no edge whitespace) and writes it, byte for byte with no trailing newline, to `entry.txt` in the output directory, then reads the file back and re-validates it so the exact bytes the judge sees are proven good.
 
 ## Run it
 
